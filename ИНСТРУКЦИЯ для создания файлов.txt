@@ -1,0 +1,10 @@
+1. Создание txt с рандномной последовательностью и нужным количеством в группе. 
+    1. Добавляем данные в souce.txt
+    2. node convert_txt.js
+    3. копируем из output.txt в iput.txt
+    4. nove convert.js
+    5. копмируем из output.json в task_shrek.json
+
+2. Создание txt с последовательностью 1 | и тд. 
+    1. node creat.js
+    2. Получается numbers.txt
