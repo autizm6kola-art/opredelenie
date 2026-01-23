@@ -1,6 +1,6 @@
 
 // src/utils/storage.js
-import { supabase } from './supabaseClient';
+// import { supabase } from './supabaseClient';
 
 // === НАСТРОЙКИ ===
 export const STORAGE_PREFIX = "opredelenie_"; // просто поменяешь здесь для нового проекта
