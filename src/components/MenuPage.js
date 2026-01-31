@@ -5,6 +5,7 @@ import BackButton from './BackButton';
 import ProgressBar from './ProgressBar';
 import { generateRanges } from '../utils/ranges';
 import '../styles/menuPage.css';
+import BackupControls from './BackupControls';
 
 function MenuPage({ allTasks, onSelectRange }) {
   const [correctInputsByTask, setCorrectInputsByTask] = useState({});
@@ -87,6 +88,8 @@ function MenuPage({ allTasks, onSelectRange }) {
           Сбросить все ответы
         </button>
       </div>
+      <div className="reset-button-contaner"><BackupControls /></div>
+
 
 
       

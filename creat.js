@@ -7,7 +7,7 @@ const filePath = './numbers.txt';
 const writeStream = fs.createWriteStream(filePath);
 
 // Цикл от 1 до 1000
-for (let i = 1; i <= 1000; i++) {
+for (let i = 1; i <= 10000; i++) {
   // Записываем строку с номером и разделителем "|"
   writeStream.write(`${i} |\n`);
 }
